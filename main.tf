@@ -8,5 +8,5 @@ resource "aws_volume_attachment" "this_ec2" {
 resource "aws_ebs_volume" "this" {
 
   size              = var.size
-  availability_zone = var.availability_zone
+  availability_zone = "us-west-1a"
 }
