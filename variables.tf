@@ -10,5 +10,5 @@ variable "size" {
 
 variable "availability_zone" {
     description = "Availability zone for instance"
-    type        = list(string)
+    type        = string
 }
