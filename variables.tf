@@ -7,3 +7,8 @@ variable "size" {
     description = "Size of the volume"
     type        = string
 }
+
+variable "availability_zone" {
+    description = "Availability zone for instance"
+    type        = list(string)
+}
