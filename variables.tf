@@ -8,7 +8,3 @@ variable "size" {
     type        = string
 }
 
-variable "availability_zone" {
-    description = "Availability zone for instance"
-    type        = string
-}
